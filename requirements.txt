@@ -12,7 +12,7 @@ Django==3.2.20
 django-cors-headers==4.1.0
 django-templated-mail==1.1.1
 djangorestframework==3.14.0
-djangorestframework-simplejwt==5.2.2
+djangorestframework-simplejwt==5.0.0
 djoser==2.1.0
 EditorConfig==0.12.3
 env==0.1.0
@@ -48,4 +48,4 @@ tzdata==2023.3
 urllib3==2.0.4
 whitenoise==6.5.0
 gunicorn==21.2.0
-djangorestframework-simplejwt==5.0.0
+
