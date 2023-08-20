@@ -49,4 +49,4 @@ tqdm==4.65.0
 tzdata==2023.3
 urllib3==2.0.4
 whitenoise==6.5.0
-gunicorn==15.0.0
+gunicorn==21.2.0
