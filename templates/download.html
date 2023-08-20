@@ -8,18 +8,18 @@
     <!-- Chacra -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chakra-ui@1.16.0/dist/index.css">
     <!-- Scripts de JS -->    
-    <script>
-      function hideMessage() {
-          var messageDiv = document.getElementById('messageDiv');
-          messageDiv.style.display = 'none';
+    <!-- <script> -->
+    <!--  //function hideMessage() {
+      //    var messageDiv = document.getElementById('messageDiv');
+      //    messageDiv.style.display = 'none';
           
-      }
+      //}
 
-      function showSpinner() {
-        var spinner = document.getElementById('spinner');
-        spinner.style.display = 'block';
-      }
-    </script>
+      //function showSpinner() {
+      //  var spinner = document.getElementById('spinner');
+      //  spinner.style.display = 'block';
+      //} -->
+    <!-- </script> -->
 </head>
 <body>
   <div class="card-container">
@@ -29,25 +29,25 @@
       <p>¡Descarga tus videos favoritos de YouTube!</p>
     </div>
     <!-- Notifiación -->
-    <div id="messageDiv">
+    <!--<div id="messageDiv">
       {% if message %}
           <p class="modal-message">{{ message }}</p>
           <script>
               setTimeout(hideMessage, 3000); // Ocultar el mensaje después de 3 segundos (3000 ms)
           </script>
-      {% endif %}
-    </div>
+      {% endif %} 
+    </div> -->
     <!-- Formulario -->
-    <form method="post" onsubmit="showSpinner()">
+    <form method="post" >
         {% csrf_token %}
         <label for="video_link">YouTube Video Link:</label>
         <input type="text" name="video_link" required>
         <button type="submit">Download</button>
     </form>
-    <div class="spinner" id="spinner">
+    <!-- <div class="spinner" id="spinner"> -->
       <!-- Spinner: -->
-      <div class="lds-dual-ring"></div>
-    </div>
+    <!--  <div class="lds-dual-ring"></div> -->
+    <!-- </div> -->
   </div>
 </div>
 </body>

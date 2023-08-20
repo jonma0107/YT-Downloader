@@ -7,7 +7,7 @@ def download_video(video_url, save_path):
     video_stream= yt.streams.get_highest_resolution()
     video_stream.download(output_path=save_path)
     print("Download completed!")
-
+    return video_stream.default_filename
   except Exception as e:
     print("Error: ", str(e))
 
