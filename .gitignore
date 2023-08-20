@@ -7,6 +7,11 @@ venv/
 # .env/
 # /.env
 
+/staticfiles
+./staticfiles
+.staticfiles/
+.staticfiles
+
 __pycache__
 db.sqlite3
 # build.sh
