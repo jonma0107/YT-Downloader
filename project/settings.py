@@ -28,7 +28,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
-CSRF_TRUSTED_ORIGINS = ['https://yt-downloader.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://yt-downloader.up.railway.app']
 
 
 # Application definition
