@@ -8,7 +8,7 @@ def download_view(request):
   message = None
   if request.method == 'POST':
     video_link = request.POST['video_link']
-    save_path = os.path.expanduser("~/Downloads")
+    save_path = os.path.expanduser("~")
     try:
       download_video(video_link, save_path)
       message = "Download completed!"
