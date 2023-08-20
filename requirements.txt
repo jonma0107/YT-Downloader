@@ -9,7 +9,7 @@ cssbeautifier==1.14.7
 defusedxml==0.7.1
 distlib==0.3.6
 Django==3.2.20
-django-cors-headers==4.2.0
+django-cors-headers==4.1.0
 django-templated-mail==1.1.1
 djangorestframework==3.14.0
 djangorestframework-simplejwt==5.2.2
@@ -49,3 +49,4 @@ tqdm==4.65.0
 tzdata==2023.3
 urllib3==2.0.4
 whitenoise==6.5.0
+gunicorn==15.0.0
