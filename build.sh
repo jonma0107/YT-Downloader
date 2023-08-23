@@ -3,7 +3,7 @@
 set -o errexit
 
 # poetry install
-# python -m pip install --upgrade pip
+python -m pip install --upgrade pip
 pip install --upgrade pip
 # python -m pip install --upgrade pip
 pip install -r requirements.txt
