@@ -22,10 +22,6 @@ html-void-elements==0.1.0
 idna==3.4
 jsbeautifier==1.14.7
 json5==0.9.14
-mysql==0.0.3
-mysql-connector==2.2.9
-mysql-connector-python==8.0.33
-mysqlclient==2.1.1
 oauthlib==3.2.2
 pathspec==0.11.1
 Pillow==9.5.0
