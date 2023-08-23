@@ -27,9 +27,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='your secret key')
 # DEBUG = False
 DEBUG = 'RENDER' not in os.environ
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
-# CSRF_TRUSTED_ORIGINS = ['https://yt-downloader.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://yt-downloader.up.railway.app']
 
 CORS_ALLOW_ALL_ORIGINS = True
 
