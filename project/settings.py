@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-# CSRF_TRUSTED_ORIGINS = ['https://yt-downloader.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://yt-downloader.up.railway.app']
 
 # *********   RENDER ***************
 # CORS_ALLOW_ALL_ORIGINS = True
