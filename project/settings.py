@@ -33,6 +33,8 @@ ALLOWED_HOSTS = ["*"]
 
 CSRF_TRUSTED_ORIGINS = ['https://yt-downloader.up.railway.app']
 
+# https://yt-downloader-q90i.onrender.com/
+
 # *********   RENDER ***************
 # CORS_ALLOW_ALL_ORIGINS = True
 
