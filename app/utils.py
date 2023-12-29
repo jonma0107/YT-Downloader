@@ -4,7 +4,8 @@ import os
 def download_video(video_url, save_path):
   try:
     yt= YouTube(video_url)
-    video_stream= yt.streams.get_highest_resolution()
+    # video_stream= yt.streams.get_highest_resolution()
+    video_stream= yt.streams.filter(progressive=True).last()
     video_stream.download(output_path=save_path)
     print("Download completed!")
     return video_stream.default_filename
